@@ -21,10 +21,14 @@ section{
 .rightarea{
     width: 400px;
     padding: 50px;
+    background-color: #ddd;
+}
+.rightarea form{
+    margin-bottom: 15px;
 }
 .rightarea h1{
     font-size: 26px;
-    color: rgb(34, 35, 70);
+    color: #222346;
 }
 .rightarea label{
     display: block;

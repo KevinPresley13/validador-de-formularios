@@ -13,24 +13,27 @@
             <img src="images/5437683.jpg" alt="Aprendizagem vetor criado por storyset - br.freepik.com">
         </div>
         <div class="rightarea">
-            <form action="" method="post">
+            <form action=ttt.php" method="post" class="form">
                 <h1>Crie sua conta</h1>
                 <label>
                     Nome: </br>
-                    <input type="text" name="nome">
+                    <input type="text" name="nome" data-rules="required/min=2">
                 </label>
                 <label>
                     Email: </br>
-                    <input type="email" name="email">
+                    <input type="email" name="email" data-rules="required">
                 </label>
                 <label>
                     Senha: </br>
-                    <input type="password" name="password">
+                    <input type="password" name="password" data-rules="required/min=8">
                 </label>
                 <label>
                     <input class="submit" type="submit" value="cadastrar">
                 </label>
             </form>
+            <div>
+                Já tem conta?<a href=""> Faça o login</a>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>

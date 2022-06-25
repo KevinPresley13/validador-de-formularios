@@ -57,3 +57,7 @@ section{
     background-color: rgba(233, 218, 10, 0.726);
     text-transform: uppercase;
 }
+.error{
+    font-size: 11px;
+    color: #ff0000;
+}

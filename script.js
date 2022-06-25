@@ -34,7 +34,9 @@ let validator ={
                         }
                     break;
                     case 'min':
-                     
+                        if(input.value.trim().length <rDetails[1]){
+                            return `Quantidade minima de caracteres${rDetails[1]}.`
+                        }
                     break;
                 };
 
